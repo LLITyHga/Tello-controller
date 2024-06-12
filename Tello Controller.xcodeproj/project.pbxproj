@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE8692872C12D7830087B8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8692862C12D7830087B8C6 /* AppDelegate.swift */; };
 		CE8692892C12D7830087B8C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8692882C12D7830087B8C6 /* SceneDelegate.swift */; };
 		CE86928B2C12D7830087B8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86928A2C12D7830087B8C6 /* ViewController.swift */; };
-		CE86928E2C12D7830087B8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE86928D2C12D7830087B8C6 /* Base */; };
 		CE8692902C12D7850087B8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE86928F2C12D7850087B8C6 /* Assets.xcassets */; };
 		CE8692932C12D7850087B8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE8692922C12D7850087B8C6 /* Base */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		CE8692862C12D7830087B8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8692882C12D7830087B8C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE86928A2C12D7830087B8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE86928D2C12D7830087B8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE86928F2C12D7850087B8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8692922C12D7850087B8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8692942C12D7850087B8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				CE8692862C12D7830087B8C6 /* AppDelegate.swift */,
 				CE8692882C12D7830087B8C6 /* SceneDelegate.swift */,
 				CE86928A2C12D7830087B8C6 /* ViewController.swift */,
-				CE86928C2C12D7830087B8C6 /* Main.storyboard */,
 				CE86928F2C12D7850087B8C6 /* Assets.xcassets */,
 				CE8692912C12D7850087B8C6 /* LaunchScreen.storyboard */,
 				CE8692942C12D7850087B8C6 /* Info.plist */,
@@ -103,7 +100,7 @@
 				};
 			};
 			buildConfigurationList = CE86927E2C12D7820087B8C6 /* Build configuration list for PBXProject "Tello Controller" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,7 +124,6 @@
 			files = (
 				CE8692902C12D7850087B8C6 /* Assets.xcassets in Resources */,
 				CE8692932C12D7850087B8C6 /* Base in Resources */,
-				CE86928E2C12D7830087B8C6 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE86928C2C12D7830087B8C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE86928D2C12D7830087B8C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE8692912C12D7850087B8C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +285,10 @@
 				INFOPLIST_FILE = "Tello Controller/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +314,10 @@
 				INFOPLIST_FILE = "Tello Controller/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
