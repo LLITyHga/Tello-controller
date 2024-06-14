@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE58350F2C17188E0047F473 /* TLAnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58350E2C17188E0047F473 /* TLAnalogJoystick.swift */; };
 		CE8692872C12D7830087B8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8692862C12D7830087B8C6 /* AppDelegate.swift */; };
 		CE8692892C12D7830087B8C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8692882C12D7830087B8C6 /* SceneDelegate.swift */; };
-		CE86928B2C12D7830087B8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86928A2C12D7830087B8C6 /* ViewController.swift */; };
+		CE86928B2C12D7830087B8C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86928A2C12D7830087B8C6 /* MainViewController.swift */; };
 		CE8692902C12D7850087B8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE86928F2C12D7850087B8C6 /* Assets.xcassets */; };
 		CE8692932C12D7850087B8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE8692922C12D7850087B8C6 /* Base */; };
+		CEC224672C182F0D009EDA53 /* JoystickScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC224662C182F0D009EDA53 /* JoystickScene.swift */; };
+		CEC224692C183489009EDA53 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC224682C183489009EDA53 /* Test.swift */; };
+		CEDB642E2C12DC8F00574CA7 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB642D2C12DC8F00574CA7 /* AppView.swift */; };
+		CEDB64322C12F20800574CA7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEDB64312C12F20800574CA7 /* SnapKit */; };
+		CEDB64342C12F20800574CA7 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = CEDB64332C12F20800574CA7 /* SnapKit-Dynamic */; };
+		CEDB64372C133CB300574CA7 /* TelloSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEDB64362C133CB300574CA7 /* TelloSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE58350E2C17188E0047F473 /* TLAnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLAnalogJoystick.swift; sourceTree = "<group>"; };
 		CE8692832C12D7830087B8C6 /* Tello Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tello Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8692862C12D7830087B8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8692882C12D7830087B8C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE86928A2C12D7830087B8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE86928A2C12D7830087B8C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CE86928F2C12D7850087B8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8692922C12D7850087B8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8692942C12D7850087B8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC224662C182F0D009EDA53 /* JoystickScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JoystickScene.swift; path = ../../../../JoystickScene.swift; sourceTree = "<group>"; };
+		CEC224682C183489009EDA53 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test.swift; path = ../../../../Test.swift; sourceTree = "<group>"; };
+		CEDB642D2C12DC8F00574CA7 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppView.swift; path = ../../../../AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDB64372C133CB300574CA7 /* TelloSwift in Frameworks */,
+				CEDB64322C12F20800574CA7 /* SnapKit in Frameworks */,
+				CEDB64342C12F20800574CA7 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,7 @@
 			children = (
 				CE8692852C12D7830087B8C6 /* Tello Controller */,
 				CE8692842C12D7830087B8C6 /* Products */,
+				CEBE3C0C2C158ABE00C29C36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,49 @@
 		CE8692852C12D7830087B8C6 /* Tello Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CE58350E2C17188E0047F473 /* TLAnalogJoystick.swift */,
+				CEDB64382C133E0F00574CA7 /* Interactors */,
+				CEDB642F2C12DCB200574CA7 /* Controllers */,
+				CEDB642C2C12DC7B00574CA7 /* Data */,
 				CE8692862C12D7830087B8C6 /* AppDelegate.swift */,
 				CE8692882C12D7830087B8C6 /* SceneDelegate.swift */,
-				CE86928A2C12D7830087B8C6 /* ViewController.swift */,
 				CE86928F2C12D7850087B8C6 /* Assets.xcassets */,
 				CE8692912C12D7850087B8C6 /* LaunchScreen.storyboard */,
 				CE8692942C12D7850087B8C6 /* Info.plist */,
 			);
 			path = "Tello Controller";
+			sourceTree = "<group>";
+		};
+		CEBE3C0C2C158ABE00C29C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDB642C2C12DC7B00574CA7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB642D2C12DC8F00574CA7 /* AppView.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CEDB642F2C12DCB200574CA7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE86928A2C12D7830087B8C6 /* MainViewController.swift */,
+				CEC224662C182F0D009EDA53 /* JoystickScene.swift */,
+				CEC224682C183489009EDA53 /* Test.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEDB64382C133E0F00574CA7 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +130,11 @@
 			dependencies = (
 			);
 			name = "Tello Controller";
+			packageProductDependencies = (
+				CEDB64312C12F20800574CA7 /* SnapKit */,
+				CEDB64332C12F20800574CA7 /* SnapKit-Dynamic */,
+				CEDB64362C133CB300574CA7 /* TelloSwift */,
+			);
 			productName = "Tello Controller";
 			productReference = CE8692832C12D7830087B8C6 /* Tello Controller.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +163,10 @@
 				Base,
 			);
 			mainGroup = CE86927A2C12D7820087B8C6;
+			packageReferences = (
+				CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CEDB64352C133CB300574CA7 /* XCRemoteSwiftPackageReference "TelloSwift" */,
+			);
 			productRefGroup = CE8692842C12D7830087B8C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,8 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE86928B2C12D7830087B8C6 /* ViewController.swift in Sources */,
+				CEDB642E2C12DC8F00574CA7 /* AppView.swift in Sources */,
+				CE86928B2C12D7830087B8C6 /* MainViewController.swift in Sources */,
 				CE8692872C12D7830087B8C6 /* AppDelegate.swift in Sources */,
+				CEC224692C183489009EDA53 /* Test.swift in Sources */,
+				CE58350F2C17188E0047F473 /* TLAnalogJoystick.swift in Sources */,
+				CEC224672C182F0D009EDA53 /* JoystickScene.swift in Sources */,
 				CE8692892C12D7830087B8C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +416,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		CEDB64352C133CB300574CA7 /* XCRemoteSwiftPackageReference "TelloSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liuxuan30/TelloSwift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEDB64312C12F20800574CA7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CEDB64332C12F20800574CA7 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		CEDB64362C133CB300574CA7 /* TelloSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEDB64352C133CB300574CA7 /* XCRemoteSwiftPackageReference "TelloSwift" */;
+			productName = TelloSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE86927B2C12D7820087B8C6 /* Project object */;
 }
