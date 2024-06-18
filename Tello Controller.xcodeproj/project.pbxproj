@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2CE5772C1C78A200667685 /* TelloSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE2CE5762C1C78A200667685 /* TelloSwift */; };
 		CE58350F2C17188E0047F473 /* TLAnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE58350E2C17188E0047F473 /* TLAnalogJoystick.swift */; };
 		CE8692872C12D7830087B8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8692862C12D7830087B8C6 /* AppDelegate.swift */; };
 		CE8692892C12D7830087B8C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8692882C12D7830087B8C6 /* SceneDelegate.swift */; };
@@ -14,11 +15,9 @@
 		CE8692902C12D7850087B8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE86928F2C12D7850087B8C6 /* Assets.xcassets */; };
 		CE8692932C12D7850087B8C6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CE8692922C12D7850087B8C6 /* Base */; };
 		CEC224672C182F0D009EDA53 /* JoystickScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC224662C182F0D009EDA53 /* JoystickScene.swift */; };
-		CEC224692C183489009EDA53 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC224682C183489009EDA53 /* Test.swift */; };
 		CEDB642E2C12DC8F00574CA7 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB642D2C12DC8F00574CA7 /* AppView.swift */; };
 		CEDB64322C12F20800574CA7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEDB64312C12F20800574CA7 /* SnapKit */; };
 		CEDB64342C12F20800574CA7 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = CEDB64332C12F20800574CA7 /* SnapKit-Dynamic */; };
-		CEDB64372C133CB300574CA7 /* TelloSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEDB64362C133CB300574CA7 /* TelloSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		CE8692922C12D7850087B8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8692942C12D7850087B8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC224662C182F0D009EDA53 /* JoystickScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JoystickScene.swift; path = ../../../../JoystickScene.swift; sourceTree = "<group>"; };
-		CEC224682C183489009EDA53 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Test.swift; path = ../../../../Test.swift; sourceTree = "<group>"; };
 		CEDB642D2C12DC8F00574CA7 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppView.swift; path = ../../../../AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEDB64372C133CB300574CA7 /* TelloSwift in Frameworks */,
+				CE2CE5772C1C78A200667685 /* TelloSwift in Frameworks */,
 				CEDB64322C12F20800574CA7 /* SnapKit in Frameworks */,
 				CEDB64342C12F20800574CA7 /* SnapKit-Dynamic in Frameworks */,
 			);
@@ -102,7 +100,6 @@
 			children = (
 				CE86928A2C12D7830087B8C6 /* MainViewController.swift */,
 				CEC224662C182F0D009EDA53 /* JoystickScene.swift */,
-				CEC224682C183489009EDA53 /* Test.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -133,7 +130,7 @@
 			packageProductDependencies = (
 				CEDB64312C12F20800574CA7 /* SnapKit */,
 				CEDB64332C12F20800574CA7 /* SnapKit-Dynamic */,
-				CEDB64362C133CB300574CA7 /* TelloSwift */,
+				CE2CE5762C1C78A200667685 /* TelloSwift */,
 			);
 			productName = "Tello Controller";
 			productReference = CE8692832C12D7830087B8C6 /* Tello Controller.app */;
@@ -165,7 +162,7 @@
 			mainGroup = CE86927A2C12D7820087B8C6;
 			packageReferences = (
 				CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				CEDB64352C133CB300574CA7 /* XCRemoteSwiftPackageReference "TelloSwift" */,
+				CE2CE5752C1C78A200667685 /* XCRemoteSwiftPackageReference "TelloSwift" */,
 			);
 			productRefGroup = CE8692842C12D7830087B8C6 /* Products */;
 			projectDirPath = "";
@@ -196,7 +193,6 @@
 				CEDB642E2C12DC8F00574CA7 /* AppView.swift in Sources */,
 				CE86928B2C12D7830087B8C6 /* MainViewController.swift in Sources */,
 				CE8692872C12D7830087B8C6 /* AppDelegate.swift in Sources */,
-				CEC224692C183489009EDA53 /* Test.swift in Sources */,
 				CE58350F2C17188E0047F473 /* TLAnalogJoystick.swift in Sources */,
 				CEC224672C182F0D009EDA53 /* JoystickScene.swift in Sources */,
 				CE8692892C12D7830087B8C6 /* SceneDelegate.swift in Sources */,
@@ -418,6 +414,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		CE2CE5752C1C78A200667685 /* XCRemoteSwiftPackageReference "TelloSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bgromov/TelloSwift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -426,17 +430,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
-		CEDB64352C133CB300574CA7 /* XCRemoteSwiftPackageReference "TelloSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/liuxuan30/TelloSwift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CE2CE5762C1C78A200667685 /* TelloSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE2CE5752C1C78A200667685 /* XCRemoteSwiftPackageReference "TelloSwift" */;
+			productName = TelloSwift;
+		};
 		CEDB64312C12F20800574CA7 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */;
@@ -446,11 +447,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CEDB64302C12F20800574CA7 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
-		};
-		CEDB64362C133CB300574CA7 /* TelloSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEDB64352C133CB300574CA7 /* XCRemoteSwiftPackageReference "TelloSwift" */;
-			productName = TelloSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
